@@ -7,8 +7,8 @@ const Home = () => {
     return (
         <div>
             <div className='banner'>
-                <h1>Best Medical & <br /> Healthcare Service <br /> For Your Family</h1>
                 <img src={homeBanner} alt="" />
+                <h1>Explore Your <br /> Summer Holiday<br /> with us & Enjoy</h1>
             </div>
         </div>
     );
