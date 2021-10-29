@@ -2,3 +2,16 @@
     margin: 10px auto;
     padding: 0px 15px;
 }
+.tour h1{
+    color:#0D6EFD;
+    font-size: 65px;
+}
+/* Make it responsive */
+@media only screen and (max-width:991px) {
+    .tour h1{
+        font-size: 30px;
+    }    
+    .image{
+        margin: -40px auto;
+    }
+}

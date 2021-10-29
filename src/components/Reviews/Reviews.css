@@ -1,26 +1,29 @@
 .reviews{
     padding: 15px;
 }
-.reviews-customer{
-    display: flex;
-    margin-top: 20px;
+.reviews h1{
+    color:#0D6EFD;
+    font-size: 65px;
 }
-.customer-name{
-padding: 0px 20px;
-margin-top: 50px;
+.img-card{
+    background-image: linear-gradient(rgba(152, 241, 8, 0.671), rgba(19, 179, 165, 0.288));
 }
-.reviews-customer img{
-    width: 200px;
-    border-radius: 10px;
-}
-.reviews-customer p{
-    background: #F1F3F4;
-    border-radius: 10px;
-    width: 65%;
-    padding: 20px;
-    padding-top: 30px;
-    text-align: justify;
+.img{
+    padding: 10px;
+    border-radius: 25px;
+    height: 300px;
 }
 .fill{
     color: gold;
+}
+.reviews p{
+    text-align: justify;
+    padding: 0px 10px;
+}
+
+/* Make it responsive */
+@media only screen and (max-width:991px) {
+    .reviews h1{
+        font-size: 30px;
+    }    
 }

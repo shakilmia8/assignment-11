@@ -6,3 +6,10 @@
     color: #0D6EFD;
     font-size: 65px;
 }
+
+/* Make it responsive */
+@media only screen and (max-width:991px) {
+    .services h1{
+        font-size: 30px;
+    }    
+}

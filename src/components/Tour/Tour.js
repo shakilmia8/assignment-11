@@ -1,6 +1,6 @@
 import React from 'react';
 import './Tour.css';
-import { Row, Col, Card, Button } from 'react-bootstrap';
+import { Row, Col, Card } from 'react-bootstrap';
 
 const Tour = () => {
     const graphicRiver = 'https://addotech.com/managedservices/wp-content/uploads/2013/12/graphicriver.png';
@@ -13,24 +13,16 @@ const Tour = () => {
             <p>Tour operator is an organization, firm, or company who buys individual travel components</p>
             <Row xs={1} sm={1} md={2} lg={4} className="g-4">
                 <Col>
-                    <Card>
-                        <Card.Img className='img' variant="top" src={graphicRiver} />
-                    </Card>
+                    <Card.Img className='image' variant="top" src={graphicRiver} />
                 </Col>
                 <Col>
-                    <Card>
-                        <Card.Img className='img' variant="top" src={audioJungle} />
-                    </Card>
+                    <Card.Img className='image' variant="top" src={audioJungle} />
                 </Col>
                 <Col>
-                    <Card>
-                        <Card.Img className='img' variant="top" src={activeDen} />
-                    </Card>
+                    <Card.Img className='image' variant="top" src={activeDen} />
                 </Col>
                 <Col>
-                    <Card>
-                        <Card.Img className='img' variant="top" src={codeCanyon} />
-                    </Card>
+                    <Card.Img className='image' variant="top" src={codeCanyon} />
                 </Col>
             </Row>
         </div>
