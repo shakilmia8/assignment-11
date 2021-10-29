@@ -16,7 +16,7 @@ const Service = (props) => {
                             {describe.slice(0, 200)}
                         </Card.Text>
                         <Link to={`/serviceDetails/${id}`}>
-                            <Button variant='dark'>See Details</Button>
+                            <Button variant='primary'>See Details</Button>
                         </Link>
                     </Card.Body>
                 </Card>
