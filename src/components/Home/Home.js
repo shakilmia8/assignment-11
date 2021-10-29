@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import homeBanner from '../../images/homebanner.png';
+import Services from '../Services/Services';
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
                 <img src={homeBanner} alt="" />
                 <h1>Explore Your <br /> Summer Holiday<br /> with us & Enjoy</h1>
             </div>
+            <Services></Services>
         </div>
     );
 };
