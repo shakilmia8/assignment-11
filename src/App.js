@@ -8,6 +8,9 @@ import Login from './components/Login/Login';
 import Register from './components/Register/Register';
 import Footer from './components/Footer/Footer';
 import NotFound from './components/NotFound/NotFound';
+import PrivateRoute from './components/PrivateRoute/PrivateRoue';
+import Manage from './components/Manage/Manage';
+import AboutUs from './components/AboutUs/AboutUs';
 
 function App() {
   return (
@@ -21,6 +24,12 @@ function App() {
             </Route>
             <Route path='/home'>
               <Home></Home>
+            </Route>
+            <PrivateRoute path='/manage'>
+              <Manage></Manage>
+            </PrivateRoute>
+            <Route path='/about'>
+              <AboutUs></AboutUs>
             </Route>
             <Route path='/login'>
               <Login></Login>

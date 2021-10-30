@@ -14,12 +14,12 @@ const Reviews = () => {
                     <Card className='img-card'>
                         <Card.Img className='img' variant="top" src={utkarshaBansal} />
                         <h4>Utkarsha Bansal</h4>
-                        <span>Rating
+                        <span>
                             <i className="fas fa-star fill"></i>
                             <i className="fas fa-star fill"></i>
                             <i className="fas fa-star fill"></i>
                             <i className="fas fa-star fill"></i>
-                            <i className="fas fa-star"></i>
+                            <i className="fas fa-star fill"></i>
                         </span>
                         <p>If u r from BANGLADESH - then u already know.. Its a place to visit for family. Couple. Friends and even alone-great hotels from all categories are available - choose as u like. One thing i noticed last time- the beach got cleaner and more organized.. Tourist police are definitely giving good protection. Enjoy if u visit there.. U wont regret.</p>
                     </Card>
@@ -28,7 +28,7 @@ const Reviews = () => {
                     <Card className='img-card'>
                         <Card.Img className='img' variant="top" src={kanikaSharma} />
                         <h4>Kanika Sharma</h4>
-                        <span>Rating
+                        <span>
                             <i className="fas fa-star fill"></i>
                             <i className="fas fa-star fill"></i>
                             <i className="fas fa-star fill"></i>
@@ -42,12 +42,12 @@ const Reviews = () => {
                     <Card className='img-card'>
                         <Card.Img className='img' variant="top" src={ajayAgarwal} />
                         <h4>Ajay Agarwal</h4>
-                        <span>Rating
+                        <span>
                             <i className="fas fa-star fill"></i>
                             <i className="fas fa-star fill"></i>
                             <i className="fas fa-star fill"></i>
                             <i className="fas fa-star fill"></i>
-                            <i className="fas fa-star"></i>
+                            <i className="fas fa-star fill"></i>
                         </span>
                         <p>I find London Power’s customer service amazing. through the years I have always switched to a different provider looking for the best deal, this time I want to stay only because the care and best customer service in the energy market. I spoke to few people and they are all polite patient and above all super knowledgeable. So, I hope this is your best choich</p>
                     </Card>
