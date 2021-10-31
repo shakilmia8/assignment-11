@@ -12,7 +12,7 @@ const Update = () => {
         fetch(url)
             .then(res => res.json())
             .then(data => setService(data))
-    }, []);
+    }, [id]);
 
     // update User
     const handleNameChange = e => {

@@ -9,7 +9,6 @@ const Orders = () => {
     const onSubmit = data => {
         const savedCart = getStoredCart();
         data.order = savedCart;
-        console.log(data)
 
         fetch('https://ghoulish-web-04262.herokuapp.com/orders', {
             method: 'POST',
