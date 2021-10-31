@@ -11,6 +11,8 @@ import NotFound from './components/NotFound/NotFound';
 import PrivateRoute from './components/PrivateRoute/PrivateRoue';
 import Manage from './components/Manage/Manage';
 import AboutUs from './components/AboutUs/AboutUs';
+import Update from './components/Update/Update';
+import AddService from './components/AddService/AddService';
 
 function App() {
   return (
@@ -25,8 +27,14 @@ function App() {
             <Route path='/home'>
               <Home></Home>
             </Route>
+            <PrivateRoute path='/addService'>
+              <AddService></AddService>
+            </PrivateRoute>
             <PrivateRoute path='/manage'>
               <Manage></Manage>
+            </PrivateRoute>
+            <PrivateRoute path='/manage/update/:id'>
+              <Update></Update>
             </PrivateRoute>
             <Route path='/about'>
               <AboutUs></AboutUs>
