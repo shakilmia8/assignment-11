@@ -4,7 +4,8 @@ import { Col, Card, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const AllOrders = (props) => {
-    const { id, name, country, describe, img } = props.service;
+    const { name, country, describe, img } = props.service;
+
     return (
         <div className='all-orders'>
             <Col>
@@ -16,7 +17,7 @@ const AllOrders = (props) => {
                         <Card.Text>
                             {describe.slice(0, 400)}
                         </Card.Text>
-                        <Link to={`/manage/update/${id}`} >
+                        <Link to={`/manage/update/${props.service._id}`} >
                             <Button variant='primary'>Update</Button>
                         </Link>
                         <Button onClick={() => props.handleDeleteService(props.service._id)} variant='primary'>Delete</Button>

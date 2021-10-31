@@ -30,7 +30,7 @@ function App() {
             <PrivateRoute path='/addService'>
               <AddService></AddService>
             </PrivateRoute>
-            <PrivateRoute path='/manage'>
+            <PrivateRoute exact path='/manage'>
               <Manage></Manage>
             </PrivateRoute>
             <PrivateRoute path='/manage/update/:id'>
