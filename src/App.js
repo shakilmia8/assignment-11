@@ -13,6 +13,7 @@ import Manage from './components/Manage/Manage';
 import AboutUs from './components/AboutUs/AboutUs';
 import Update from './components/Update/Update';
 import AddService from './components/AddService/AddService';
+import Orders from './components/Orders/Orders';
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
             </Route>
             <PrivateRoute path='/addService'>
               <AddService></AddService>
+            </PrivateRoute>
+            <PrivateRoute path='/orders'>
+              <Orders></Orders>
             </PrivateRoute>
             <PrivateRoute exact path='/manage'>
               <Manage></Manage>

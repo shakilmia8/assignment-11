@@ -4,7 +4,8 @@ import { Col, Card, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Service = (props) => {
-    const { id, name, describe, img, country } = props.service;
+    const { name, describe, img, country } = props.service;
+
     return (
         <div className='service'>
             <Col>
@@ -16,7 +17,7 @@ const Service = (props) => {
                         <Card.Text>
                             {describe.slice(0, 200)}
                         </Card.Text>
-                        <Link to={`/serviceDetails/${id}`}>
+                        <Link to='/orders'>
                             <Button variant='primary'>Place Order</Button>
                         </Link>
                     </Card.Body>

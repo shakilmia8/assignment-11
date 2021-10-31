@@ -63,7 +63,7 @@ const Update = () => {
     }
     return (
         <div className='add-service'>
-            <h2>Update {service.name} </h2>
+            <h2>Updated this document </h2>
             <form onSubmit={handleUpdateService}>
                 <input onChange={handleNameChange} value={service.name || ''} type="text" /><br />
                 <input onChange={handleCountryChange} value={service.country || ''} type="text" /><br />
