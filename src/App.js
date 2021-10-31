@@ -14,6 +14,7 @@ import AboutUs from './components/AboutUs/AboutUs';
 import Update from './components/Update/Update';
 import AddService from './components/AddService/AddService';
 import Orders from './components/Orders/Orders';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -42,6 +43,9 @@ function App() {
             </PrivateRoute>
             <Route path='/about'>
               <AboutUs></AboutUs>
+            </Route>
+            <Route path='/contact'>
+              <Contact></Contact>
             </Route>
             <Route path='/login'>
               <Login></Login>
