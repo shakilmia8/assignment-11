@@ -8,7 +8,7 @@ import AllOrders from '../AllOrders/AllOrders';
 const Manage = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:9000/services')
+        fetch('https://ghoulish-web-04262.herokuapp.com/services')
             .then(res => res.json())
             .then(data => setServices(data));
     }, []);
@@ -17,7 +17,7 @@ const Manage = () => {
     const handleDeleteService = id => {
         const proceed = window.confirm('Are you sure, you want to delete?');
         if (proceed) {
-            const url = `http://localhost:9000/services/${id}`;
+            const url = `https://ghoulish-web-04262.herokuapp.com/services/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })

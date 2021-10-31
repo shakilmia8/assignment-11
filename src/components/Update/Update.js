@@ -8,7 +8,7 @@ const Update = () => {
     const { id } = useParams();
 
     useEffect(() => {
-        const url = `http://localhost:9000/services/${id}`;
+        const url = `https://ghoulish-web-04262.herokuapp.com/services/${id}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setService(data))
@@ -44,7 +44,7 @@ const Update = () => {
     }
 
     const handleUpdateService = e => {
-        const url = `http://localhost:9000/services/${id}`;
+        const url = `https://ghoulish-web-04262.herokuapp.com/services/${id}`;
         fetch(url, {
             method: 'PUT',
             headers: {

@@ -16,7 +16,7 @@ const AddService = () => {
 
         const newService = { name, country, img, describe };
 
-        fetch('http://localhost:9000/services', {
+        fetch('https://ghoulish-web-04262.herokuapp.com/services', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
