@@ -1,6 +1,6 @@
 # Getting Started with website is TravelTrip
 
-You see server site code private link [Click here](https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-shakilmia8).
+You see server site code link [Click here](https://github.com/shakilmia8/assignment-11-server).
 
 If you want to visit this site [Click here](https://assignment-11-d5732.web.app/).
 
